@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Radi8//NQ Wirtschaftskalender//DE
+PRODID:-//nq-calendar-feed//NQ Economic Calendar//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:NQ Wirtschaftskalender
@@ -23,56 +23,133 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:nq-ism-services-20260706@radi8
-DTSTAMP:20260703T120000Z
+UID:nq-2026-07-06-ism-services-pmi@nq-calendar-feed
+DTSTAMP:20260703T124100Z
 DTSTART;TZID=America/New_York:20260706T100000
 DTEND;TZID=America/New_York:20260706T103000
-SUMMARY:🟡 NQ | ISM Services PMI (Juni)
-DESCRIPTION:Impact: 🟡 MITTEL\nForecast/Vorwert: ergaenzt Cowork automatisch am Sonntag.\nErklaerung: Stimmungsindex im US-Dienstleistungssektor. Im aktuellen Inflations-/Zins-Regime (Warsh-Fed) gilt: starke Zahl = hawkish = NQ tendenziell runter.\nWas-waere-wenn:\n 1) Beat -> NQ eher runter (Zinssorge)\n 2) In-line -> erste Reaktion faden, Range\n 3) Miss -> NQ eher rauf (Zinshoffnung)\n🔗 Quelle: ForexFactory-Event-Link folgt automatisch.
+SUMMARY:🔴 NQ | ISM Services PMI — 16:00 CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 10:00 ET / 16:00 CEST\nForecast: 54\,2
+  | Vorwert: 54\,5\nErklaerung: Der ISM Services PMI misst per Umfrage unte
+ r Einkaufsmanagern die Aktivitaet im US-Dienstleistungssektor\, der rund 8
+ 0% der US-Wirtschaftsleistung ausmacht. Werte ueber 50 signalisieren Expan
+ sion. Im aktuellen restriktiven Fed-Regime unter Chair Warsh gilt: starke/
+ ueber Erwartung liegende Daten naehren die Erwartung einer laenger restrik
+ tiven Geldpolitik (hawkish) und belasten damit tendenziell Risikoassets wi
+ e den NQ ("gute Nachrichten = schlechte Nachrichten"). Schwache Daten stue
+ tzen dagegen Hoffnungen auf ein Ende des Straffungszyklus und wirken fuer 
+ den NQ eher unterstuetzend.\nWas-waere-wenn:\n1) Beat (>54\,2): Staerkeres
+  Wachstumssignal verstaerkt hawkishe Fed-Erwartungen\, Renditen ziehen an\
+ , NQ tendenziell unter Druck.\n2) In-line (=54\,2): Reaktion moderat\, Fok
+ us verschiebt sich rasch auf die FOMC-Minutes am Mittwoch.\n3) Miss (<54\,
+ 2): Schwaecheres Signal naehrt Zinssenkungs-/Pause-Hoffnungen\, NQ tendenz
+ iell unterstuetzt.\n🔗 Quelle: https://www.forexfactory.com/calendar?day
+ =jul6.2026
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NQ Event in 1 Std: ISM Services PMI
+DESCRIPTION:Erinnerung: NQ | ISM Services PMI in 1 Stunde
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NQ Event in 15 Min: ISM Services PMI
+DESCRIPTION:Erinnerung: NQ | ISM Services PMI in 15 Minuten
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:nq-fomc-minutes-20260708@radi8
-DTSTAMP:20260703T120000Z
+UID:nq-2026-07-08-fomc-minutes@nq-calendar-feed
+DTSTAMP:20260703T124100Z
 DTSTART;TZID=America/New_York:20260708T140000
 DTEND;TZID=America/New_York:20260708T143000
-SUMMARY:🔴 NQ | FOMC Meeting Minutes
-DESCRIPTION:Impact: 🔴 HOCH - Top-Event der Woche.\nForecast/Vorwert: Protokoll (keine Zahl).\nErklaerung: Protokoll des Juni-Meetings, erstes unter Fed-Chair Warsh. Markt sucht Hinweise auf den weiteren Zinspfad. Hawkischer Ton = NQ runter, dovisher = NQ rauf.\nWas-waere-wenn:\n 1) Hawkisher als erwartet -> NQ runter, Risk-off\n 2) Neutral -> erste Reaktion faden, Range\n 3) Dovisher -> NQ rauf, Risk-on\n🔗 Quelle: ForexFactory-Event-Link folgt automatisch.
+SUMMARY:🔴 NQ | FOMC Meeting Minutes — 20:00 CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 14:00 ET / 20:00 CEST\nForecast: – |
+  Vorwert: – (qualitatives Protokoll\, kein numerischer Konsens)\nErklaer
+ ung: Das Protokoll der Fed-Sitzung vom Juni 2026 - der ersten unter dem ne
+ uen Fed-Chair Kevin Warsh - liefert Details zur Diskussion ueber den weite
+ ren Zinspfad. Der zuletzt veroeffentlichte Dot Plot zeigte eine deutlich r
+ estriktivere Median-Erwartung (Jahresende ca. 3\,8%\, impliziert eine weit
+ ere Anhebung um 25 BP)\; der Markt preist aktuell rund 80% Wahrscheinlichk
+ eit fuer eine weitere Zinsanhebung bis Jahresende ein. Ein hawkisher Ton i
+ n den Minutes (Betonung von Inflationsrisiken) stuetzt tendenziell den Dol
+ lar und belastet Aktien/NQ\; ein dovisherer Unterton (Sorge um Wachstum/Ar
+ beitsmarkt) kann den NQ stuetzen.\nWas-waere-wenn:\n1) Hawkisher Ton (weit
+ ere Anhebung als noetig erachtet): NQ tendenziell runter\, da restriktive 
+ Politik laenger erwartet wird.\n2) Neutral/gemischt: Begrenzte Reaktion\, 
+ Markt wartet auf weitere Fed-Reden und Daten.\n3) Dovisher Unterton (Wachs
+ tums-/Arbeitsmarktsorgen ueberwiegen): NQ tendenziell rauf\, da ein naeher
+ es Ende des Straffungszyklus eingepreist wird.\n🔗 Quelle: https://www.f
+ orexfactory.com/calendar?day=jul8.2026
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NQ Event in 1 Std: FOMC Meeting Minutes
+DESCRIPTION:Erinnerung: NQ | FOMC Meeting Minutes in 1 Stunde
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NQ Event in 15 Min: FOMC Meeting Minutes
+DESCRIPTION:Erinnerung: NQ | FOMC Meeting Minutes in 15 Minuten
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:nq-jobless-claims-20260709@radi8
-DTSTAMP:20260703T120000Z
+UID:nq-2026-07-09-jobless-claims@nq-calendar-feed
+DTSTAMP:20260703T124100Z
 DTSTART;TZID=America/New_York:20260709T083000
 DTEND;TZID=America/New_York:20260709T090000
-SUMMARY:🟡 NQ | Weekly Jobless Claims
-DESCRIPTION:Impact: 🟡 MITTEL\nForecast/Vorwert: ergaenzt Cowork automatisch am Sonntag.\nErklaerung: Woechentliche Erstantraege Arbeitslosenhilfe. In ruhigen Wochen kann eine Abweichung NQ zum US-Open bewegen. Starker Arbeitsmarkt = hawkish = NQ tendenziell runter.\nWas-waere-wenn:\n 1) Weniger Claims (stark) -> NQ eher runter\n 2) In-line -> kaum Reaktion\n 3) Mehr Claims (schwach) -> NQ eher rauf\n🔗 Quelle: ForexFactory-Event-Link folgt automatisch.
+SUMMARY:🔴 NQ | Initial Jobless Claims — 14:30 CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 8:30 ET / 14:30 CEST\nForecast: 218K |
+  Vorwert: 215K\nErklaerung: Die woechentlichen Erstantraege auf Arbeitslos
+ enhilfe gelten als zeitnahester Indikator fuer die Verfassung des US-Arbei
+ tsmarkts. Ein Anstieg ueber Erwartung signalisiert eine Abkuehlung des Arb
+ eitsmarkts. Im aktuellen Warsh-Regime ist die Reaktion zweischneidig: Deut
+ lich schwaechere Arbeitsmarktdaten (hoehere Antraege) schueren Konjunkturs
+ orgen\, was den NQ kurzfristig belasten kann\, gleichzeitig aber Zinssenku
+ ngs-/Pause-Hoffnungen naehrt\, was mittelfristig stuetzend wirkt. Sehr sta
+ rke Daten (niedrigere Antraege) stuetzen umgekehrt die hawkishe Fed-Haltun
+ g und wirken tendenziell belastend fuer den NQ.\nWas-waere-wenn:\n1) Beat/
+ hoeher als Forecast (>218K\, schwaecherer Arbeitsmarkt): Kurzfristig gemis
+ cht - Konjunktursorge vs. aufkeimende Lockerungshoffnung\; NQ-Reaktion oft
+  leicht positiv\, sofern nicht als Rezessionssignal gewertet.\n2) In-line 
+ (=218K): Geringe Marktreaktion\, Fokus bleibt auf FOMC-Minutes-Nachwirkung
+ en und Williams-Rede am selben Tag.\n3) Miss/niedriger als Forecast (<218K
+ \, robuster Arbeitsmarkt): Stuetzt hawkishe Fed-Erwartungen\, NQ tendenzie
+ ll unter Druck.\n🔗 Quelle: https://www.forexfactory.com/calendar?day=ju
+ l9.2026
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NQ Event in 1 Std: Weekly Jobless Claims
+DESCRIPTION:Erinnerung: NQ | Initial Jobless Claims in 1 Stunde
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NQ Event in 15 Min: Weekly Jobless Claims
+DESCRIPTION:Erinnerung: NQ | Initial Jobless Claims in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-2026-07-09-williams-speech@nq-calendar-feed
+DTSTAMP:20260703T124100Z
+DTSTART;TZID=America/New_York:20260709T090000
+DTEND;TZID=America/New_York:20260709T100000
+SUMMARY:🟡 NQ | FOMC Member Williams Speaks — 15:00 CEST
+DESCRIPTION:Impact: 🟡 MITTEL\nZeit: 9:00 ET / 15:00 CEST\nForecast: – 
+ | Vorwert: – (Rede\, kein numerischer Wert)\nErklaerung: John Williams (
+ NY-Fed-Praesident\, staendiges FOMC-Mitglied) aeussert sich zur Geldpoliti
+ k. Als einflussreicher Voter wird jede Nuance zum Zinspfad genau beobachte
+ t. Ein hawkischer Kommentar (Fokus auf Inflationsrisiken\, Offenheit fuer 
+ weitere Anhebung) stuetzt den Dollar und belastet tendenziell den NQ\; ein
+  abwaegenderer/dovisherer Ton (Verweis auf Wachstums-/Arbeitsmarktrisiken)
+  kann den NQ stuetzen.\nWas-waere-wenn:\n1) Hawkisher Unterton: NQ tendenz
+ iell runter\, da restriktive Politik bekraeftigt wird.\n2) Neutral/ausgewo
+ gen: Geringe Marktreaktion\, Aussagen bestaetigen bekannten Kurs.\n3) Dovi
+ sher Unterton: NQ tendenziell rauf\, da Markt frueher Lockerung einpreist.
+ \n🔗 Quelle: https://www.forexfactory.com/calendar?day=jul9.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: NQ | FOMC Member Williams Speaks in 1 Stunde
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: NQ | FOMC Member Williams Speaks in 15 Minuten
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
