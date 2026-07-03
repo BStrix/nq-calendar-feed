@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Radi8//NQ Wirtschaftskalender//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NQ Wirtschaftskalender
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nq-ism-services-20260706@radi8
+DTSTAMP:20260703T120000Z
+DTSTART;TZID=America/New_York:20260706T100000
+DTEND;TZID=America/New_York:20260706T103000
+SUMMARY:🟡 NQ | ISM Services PMI (Juni)
+DESCRIPTION:Impact: 🟡 MITTEL\nForecast/Vorwert: ergaenzt Cowork automatisch am Sonntag.\nErklaerung: Stimmungsindex im US-Dienstleistungssektor. Im aktuellen Inflations-/Zins-Regime (Warsh-Fed) gilt: starke Zahl = hawkish = NQ tendenziell runter.\nWas-waere-wenn:\n 1) Beat -> NQ eher runter (Zinssorge)\n 2) In-line -> erste Reaktion faden, Range\n 3) Miss -> NQ eher rauf (Zinshoffnung)\n🔗 Quelle: ForexFactory-Event-Link folgt automatisch.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NQ Event in 1 Std: ISM Services PMI
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NQ Event in 15 Min: ISM Services PMI
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-fomc-minutes-20260708@radi8
+DTSTAMP:20260703T120000Z
+DTSTART;TZID=America/New_York:20260708T140000
+DTEND;TZID=America/New_York:20260708T143000
+SUMMARY:🔴 NQ | FOMC Meeting Minutes
+DESCRIPTION:Impact: 🔴 HOCH - Top-Event der Woche.\nForecast/Vorwert: Protokoll (keine Zahl).\nErklaerung: Protokoll des Juni-Meetings, erstes unter Fed-Chair Warsh. Markt sucht Hinweise auf den weiteren Zinspfad. Hawkischer Ton = NQ runter, dovisher = NQ rauf.\nWas-waere-wenn:\n 1) Hawkisher als erwartet -> NQ runter, Risk-off\n 2) Neutral -> erste Reaktion faden, Range\n 3) Dovisher -> NQ rauf, Risk-on\n🔗 Quelle: ForexFactory-Event-Link folgt automatisch.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NQ Event in 1 Std: FOMC Meeting Minutes
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NQ Event in 15 Min: FOMC Meeting Minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-jobless-claims-20260709@radi8
+DTSTAMP:20260703T120000Z
+DTSTART;TZID=America/New_York:20260709T083000
+DTEND;TZID=America/New_York:20260709T090000
+SUMMARY:🟡 NQ | Weekly Jobless Claims
+DESCRIPTION:Impact: 🟡 MITTEL\nForecast/Vorwert: ergaenzt Cowork automatisch am Sonntag.\nErklaerung: Woechentliche Erstantraege Arbeitslosenhilfe. In ruhigen Wochen kann eine Abweichung NQ zum US-Open bewegen. Starker Arbeitsmarkt = hawkish = NQ tendenziell runter.\nWas-waere-wenn:\n 1) Weniger Claims (stark) -> NQ eher runter\n 2) In-line -> kaum Reaktion\n 3) Mehr Claims (schwach) -> NQ eher rauf\n🔗 Quelle: ForexFactory-Event-Link folgt automatisch.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NQ Event in 1 Std: Weekly Jobless Claims
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NQ Event in 15 Min: Weekly Jobless Claims
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
