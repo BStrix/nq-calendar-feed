@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:nq-2026-07-06-ism-services-pmi@nq-calendar-feed
-DTSTAMP:20260703T124100Z
+DTSTAMP:20260703T140000Z
 DTSTART;TZID=America/New_York:20260706T100000
 DTEND;TZID=America/New_York:20260706T103000
 SUMMARY:🔴 NQ | ISM Services PMI — 16:00 CEST
@@ -56,8 +56,45 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:nq-2026-07-06-waller-speech@nq-calendar-feed
+DTSTAMP:20260703T140000Z
+DTSTART;TZID=America/New_York:20260706T110000
+DTEND;TZID=America/New_York:20260706T120000
+SUMMARY:⚫🟡 NQ | FOMC Member Waller Speaks — 17:00 CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
+ L)\nZeit: 11:00 ET / 17:00 CEST\nForecast: – | Vorwert: – (Rede\, kein
+  numerischer Wert)\nHinweis Quellen-Check: Nur auf ForexFactory gelistet\,
+  auf myfxbook fuer diese Woche NICHT gefunden (weder Zeit noch Impact dort
+  verifizierbar). Farbe daher geschaetzt auf Basis der ueblichen Einstufung
+  reguearer FOMC-Voter-Reden (meist Mittel/Gelb\, sofern nicht Fed-Chair od
+ er Krisenmoment).\nErklaerung: Christopher Waller ist Mitglied des Federal
+  Reserve Board of Governors und staendiges (nicht rotierendes) FOMC-Mitgli
+ ed - seine Stimme zaehlt bei jeder Zinsentscheidung. Er gilt als einflussr
+ eiche\, forschungsgetriebene Stimme im Offenmarktausschuss und wird gelege
+ ntlich als moeglicher kuenftiger Fed-Chair gehandelt. Seine Reden werden a
+ uf Signale zum Zinspfad abgeklopft. Im aktuellen restriktiven Warsh-Regime
+  gilt: ein hawkischer Kommentar (Betonung Inflationsrisiken\, Offenheit fu
+ er weitere Anhebung) stuetzt den Dollar und belastet tendenziell den NQ\; 
+ ein abwaegenderer/dovisherer Ton (Verweis auf Wachstums-/Arbeitsmarktrisik
+ en) kann den NQ stuetzen.\nWas-waere-wenn:\n1) Hawkisher Unterton: NQ tend
+ enziell runter\, da restriktive Politik bekraeftigt wird.\n2) Neutral/ausg
+ ewogen: Geringe Marktreaktion\, Aussagen bestaetigen bekannten Kurs.\n3) D
+ ovisher Unterton: NQ tendenziell rauf\, da Markt frueher Lockerung einprei
+ st.\n🔗 Quelle: https://www.forexfactory.com/calendar?day=jul6.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: NQ | FOMC Member Waller Speaks in 1 Stunde
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: NQ | FOMC Member Waller Speaks in 15 Minuten
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:nq-2026-07-08-fomc-minutes@nq-calendar-feed
-DTSTAMP:20260703T124100Z
+DTSTAMP:20260703T140000Z
 DTSTART;TZID=America/New_York:20260708T140000
 DTEND;TZID=America/New_York:20260708T143000
 SUMMARY:🔴 NQ | FOMC Meeting Minutes — 20:00 CEST
@@ -91,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nq-2026-07-09-jobless-claims@nq-calendar-feed
-DTSTAMP:20260703T124100Z
+DTSTAMP:20260703T140000Z
 DTSTART;TZID=America/New_York:20260709T083000
 DTEND;TZID=America/New_York:20260709T090000
 SUMMARY:🔴 NQ | Initial Jobless Claims — 14:30 CEST
@@ -126,7 +163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nq-2026-07-09-williams-speech@nq-calendar-feed
-DTSTAMP:20260703T124100Z
+DTSTAMP:20260703T140000Z
 DTSTART;TZID=America/New_York:20260709T090000
 DTEND;TZID=America/New_York:20260709T100000
 SUMMARY:🟡 NQ | FOMC Member Williams Speaks — 15:00 CEST
