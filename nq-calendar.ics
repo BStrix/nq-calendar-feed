@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//nq-calendar-feed//NQ Economic Calendar//DE
+PRODID:-//NQ Wirtschaftskalender//Wochenbuild//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:NQ Wirtschaftskalender
@@ -24,186 +24,268 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:nq-2026-07-14-cpi@nq-calendar-feed
-DTSTAMP:20260710T110000Z
+DTSTAMP:20260713T132409Z
 DTSTART;TZID=America/New_York:20260714T083000
 DTEND;TZID=America/New_York:20260714T090000
-SUMMARY:🔴 NQ | CPI (Verbraucherpreise) — 14:30 CEST
-DESCRIPTION:Impact: 🔴 HOCH\nZeit: 8:30 ET / 14:30 CEST\nForecast: noch n
- icht veroeffentlicht | Vorwert: CPI m/m 0\,4% / y/y 3\,9% (Kern-CPI m/m 0\
- ,3% / y/y 2\,8%)\nErklaerung: Der Verbraucherpreisindex misst die Preisent
- wicklung eines Warenkorbs und ist der zentrale Inflationsindikator fuer di
- e Fed. Im aktuellen restriktiven Warsh-Regime (Dot Plot impliziert weitere
-  Zinsanhebung\, rund 80% Marktpreis fuer eine weitere Anhebung bis Jahrese
- nde) gilt: eine ueber Erwartung liegende Inflation bestaetigt den hawkishe
- n Kurs und belastet tendenziell den NQ ("gute Wirtschaftsdaten = schlechte
-  Nachrichten fuer Risikoassets")\, waehrend eine niedrigere Inflation Hoff
- nung auf ein Ende des Straffungszyklus naehrt und den NQ stuetzen kann.\nW
- as-waere-wenn:\n1) Beat (Inflation hoeher als erwartet): Bestaetigt hawkis
- hen Fed-Kurs\, Renditen steigen\, NQ tendenziell unter Druck.\n2) In-line:
-  Reaktion moderat\, Markt wartet auf PPI am Folgetag.\n3) Miss (Inflation 
- niedriger als erwartet): Naehrt Hoffnung auf Ende der Straffung\, NQ tende
- nziell unterstuetzt.\n🔗 Quelle: https://www.forexfactory.com/calendar?d
- ay=jul14.2026
+SUMMARY:🔴 NQ | US-Verbraucherpreise (CPI) — 14:30 CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 08:30 ET / 14:30 CEST\nForecast: CPI m
+ /m -0\,1% (Vorwert 0\,5%) | CPI y/y 3\,8% (Vorwert 4\,2%) | Kern-CPI m/m 0
+ \,2% (Vorwert 0\,2%) | Kern-CPI y/y 2\,8% (Vorwert 2\,9%)\nErklaerung: Der
+  Verbraucherpreisindex misst die Preisentwicklung eines Warenkorbs fuer Ko
+ nsumenten und ist neben dem PCE das zentrale Inflationsmass der Fed. Unter
+  Fed-Chair Kevin Warsh faehrt die Fed einen restriktiven\, hawkishen Kurs 
+ mit Fokus auf Preisstabilitaet\; rund die Haelfte der FOMC-Mitglieder erwa
+ egt fuer 2026 sogar weitere Zinsanhebungen. In diesem Regime gilt: starke/
+ ueber Forecast liegende Inflationsdaten befeuern die Erwartung weiterer Zi
+ nsanhebungen (hawkish) und belasten tendenziell den NQ ("good news = bad n
+ ews")\, waehrend schwaechere Daten Hoffnung auf ein Ende des Straffungszyk
+ lus wecken und den NQ stuetzen koennen.\nWas-waere-wenn:\n1) Beat (CPI ueb
+ er Forecast) -> NQ tendenziell runter\, da hoehere Inflation die Wahrschei
+ nlichkeit einer weiteren Zinsanhebung durch Warsh erhoeht.\n2) In-line (CP
+ I ca. Forecast) -> Reaktion meist verhalten\, Fokus verschiebt sich auf Wa
+ rshs Aussagen bei der Kongressanhoerung am selben Tag.\n3) Miss (CPI unter
+  Forecast) -> NQ tendenziell rauf\, da nachlassender Preisdruck Spielraum 
+ fuer eine weniger restriktive Fed schafft.\nQuelle: https://www.forexfacto
+ ry.com/calendar?day=jul14.2026
+CATEGORIES:NQ,Wirtschaftskalender
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | CPI in 1 Stunde
+DESCRIPTION:Erinnerung: 🔴 NQ | US-Verbraucherpreise (CPI) — 14:30 CEST
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | CPI in 15 Minuten
+DESCRIPTION:Erinnerung: 🔴 NQ | US-Verbraucherpreise (CPI) — 14:30 CEST
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:nq-2026-07-14-goolsbee-speech@nq-calendar-feed
-DTSTAMP:20260710T110000Z
-DTSTART;TZID=America/New_York:20260714T130000
-DTEND;TZID=America/New_York:20260714T140000
-SUMMARY:⚫🟡 NQ | Fed Goolsbee Speech — 19:00 CEST
-DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
- L)\nZeit: 13:00 ET / 19:00 CEST\nForecast: – | Vorwert: – (Rede\, kein
-  numerischer Wert)\nHinweis Quellen-Check: Nur auf myfxbook gelistet (Impa
- ct dort: Medium)\; auf ForexFactory taucht dieser Termin fuer diese Woche 
- nicht auf. Zeit/Existenz daher nicht cross-verifizierbar.\nErklaerung: Aus
- tan Goolsbee ist Praesident der Federal Reserve Bank of Chicago und rotier
- endes FOMC-Mitglied. Seine Kommentare zur Geldpolitik werden auf Signale z
- um weiteren Zinspfad abgeklopft. Im aktuellen restriktiven Warsh-Regime gi
- lt: ein hawkischer Unterton stuetzt den Dollar und belastet tendenziell de
- n NQ\, ein abwaegenderer/dovisherer Ton kann den NQ stuetzen.\nWas-waere-w
- enn:\n1) Hawkisher Unterton: NQ tendenziell runter\, da restriktive Politi
- k bekraeftigt wird.\n2) Neutral/ausgewogen: Geringe Marktreaktion.\n3) Dov
- isher Unterton: NQ tendenziell rauf.\n🔗 Quelle: https://www.forexfactor
- y.com/calendar?day=jul14.2026
+UID:nq-2026-07-14-warsh-testimony@nq-calendar-feed
+DTSTAMP:20260713T132409Z
+DTSTART;TZID=America/New_York:20260714T100000
+DTEND;TZID=America/New_York:20260714T120000
+SUMMARY:🔴 NQ | Fed-Chair Warsh Kongressanhoerung (Tag 1) — 16:00 CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 10:00 ET / 16:00 CEST\nForecast: – (
+ Rede/Anhoerung\, kein Konsens)\nErklaerung: Halbjaehrliche Anhoerung des F
+ ed-Vorsitzenden vor dem Kongress zur Geldpolitik. Da Warsh seit Amtsantrit
+ t einen unerwartet hawkishen Kurs faehrt ("prices are too high"\, Fokus au
+ f Preisstabilitaet statt Konjunkturstimulus) und laut Dot Plot fast die Ha
+ elfte der FOMC-Mitglieder 2026 eine weitere Zinsanhebung fuer moeglich hae
+ lt\, wird jedes Wort auf weitere Hawkish-Signale abgeklopft. Restriktive T
+ oene wirken NQ-belastend\, versoehnliche/daten-abhaengige Toene koennen de
+ n NQ stuetzen.\nWas-waere-wenn:\n1) Hawkish ueberraschend (explizite Offen
+ heit fuer Zinsanhebung) -> NQ tendenziell runter\, Renditen und Dollar ten
+ denziell rauf.\n2) Erwartungsgemaess ausgewogen/daten-abhaengig -> moderat
+ e Reaktion\, Markt wartet auf CPI/PPI-Reaktion.\n3) Unerwartet versoehnlic
+ h (Betonung von Abwaertsrisiken) -> NQ tendenziell rauf\, da Markt auf ein
+  Ende des Straffungszyklus hofft.\nQuelle: https://www.forexfactory.com/ca
+ lendar?day=jul14.2026
+CATEGORIES:NQ,Wirtschaftskalender
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | Fed Goolsbee Speech in 1 Stunde
+DESCRIPTION:Erinnerung: 🔴 NQ | Fed-Chair Warsh Kongressanhoerung (Tag 1)
+  — 16:00 CEST
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | Fed Goolsbee Speech in 15 Minuten
+DESCRIPTION:Erinnerung: 🔴 NQ | Fed-Chair Warsh Kongressanhoerung (Tag 1)
+  — 16:00 CEST
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nq-2026-07-15-ppi@nq-calendar-feed
-DTSTAMP:20260710T110000Z
+DTSTAMP:20260713T132409Z
 DTSTART;TZID=America/New_York:20260715T083000
 DTEND;TZID=America/New_York:20260715T090000
-SUMMARY:🔴 NQ | PPI (Erzeugerpreise) — 14:30 CEST
-DESCRIPTION:Impact: 🔴 HOCH\nZeit: 8:30 ET / 14:30 CEST\nForecast: noch n
- icht veroeffentlicht | Vorwert: 0\,8% m/m\nErklaerung: Der Erzeugerpreisin
- dex misst die Preisentwicklung auf Grosshandels-/Produzentenebene und gilt
-  als Fruehindikator fuer die Verbraucherpreisinflation (CPI). Im aktuellen
-  Warsh-Regime gilt: hoehere Erzeugerpreise als erwartet bestaetigen den ha
- wkishen Kurs und belasten tendenziell den NQ\, niedrigere Werte stuetzen L
- ockerungshoffnungen.\nWas-waere-wenn:\n1) Beat: Hawkishe Erwartungen verst
- aerken sich\, NQ tendenziell unter Druck.\n2) In-line: Reaktion moderat.\n
- 3) Miss: Lockerungshoffnung\, NQ tendenziell unterstuetzt.\n🔗 Quelle: h
- ttps://www.forexfactory.com/calendar?day=jul15.2026
+SUMMARY:⚫🔴 NQ | US-Erzeugerpreise (PPI) — 14:30 CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🔴 HOCH)
+ \nZeit: 08:30 ET / 14:30 CEST\nForecast: PPI m/m 0\,0% (Vorwert 1\,1%) | K
+ ern-PPI m/m 0\,3% (Vorwert 0\,4%)\nHinweis Quellen-Check: Zeit stimmt zwis
+ chen beiden Quellen ueberein. Impact weicht teilweise ab: ForexFactory stu
+ ft sowohl PPI m/m als auch Kern-PPI m/m als Hoch ein\, myfxbook stuft PPI 
+ m/m als Hoch\, Kern-PPI m/m aber nur als Mittel ein. Da die Einschaetzung 
+ uneinheitlich ist\, wird das Event vorsorglich als Hoch markiert.\nErklaer
+ ung: Der Erzeugerpreisindex misst die Preisentwicklung auf Grosshandels-/P
+ roduzentenebene und gilt oft als Fruehindikator fuer die Verbraucherpreise
+  (CPI) der Folgemonate. Im aktuellen restriktiven Fed-Kurs unter Warsh gil
+ t auch hier: staerkerer Preisdruck als erwartet naehrt Zinsanhebungsfantas
+ ien und belastet den NQ\, schwaechere Zahlen wirken unterstuetzend.\nWas-w
+ aere-wenn:\n1) Beat (PPI ueber Forecast) -> NQ tendenziell runter\, da zus
+ aetzlicher Inflationsdruck die Hawkish-Rhetorik von Warsh untermauert.\n2)
+  In-line (PPI ca. Forecast) -> geringe eigenstaendige Reaktion\, Fokus ble
+ ibt auf Warshs Anhoerung am selben Tag.\n3) Miss (PPI unter Forecast) -> N
+ Q tendenziell rauf\, da nachlassender Preisdruck auf Produzentenebene Ents
+ pannungssignale liefert.\nQuelle: https://www.forexfactory.com/calendar?da
+ y=jul15.2026
+CATEGORIES:NQ,Wirtschaftskalender
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | PPI in 1 Stunde
+DESCRIPTION:Erinnerung: ⚫🔴 NQ | US-Erzeugerpreise (PPI) — 14:30 CEST
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | PPI in 15 Minuten
+DESCRIPTION:Erinnerung: ⚫🔴 NQ | US-Erzeugerpreise (PPI) — 14:30 CEST
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-2026-07-15-warsh-testimony@nq-calendar-feed
+DTSTAMP:20260713T132409Z
+DTSTART;TZID=America/New_York:20260715T100000
+DTEND;TZID=America/New_York:20260715T120000
+SUMMARY:⚫🔴 NQ | Fed-Chair Warsh Kongressanhoerung (Tag 2) — 16:00 CE
+ ST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🔴 HOCH)
+ \nZeit: 10:00 ET / 16:00 CEST\nForecast: – (Rede/Anhoerung\, kein Konsen
+ s)\nHinweis Quellen-Check: Event nur auf ForexFactory fuer den 15.07. geli
+ stet\; auf myfxbook wurde fuer diesen zweiten Anhoerungstag kein separater
+  Eintrag gefunden (moeglicherweise nicht dupliziert\, oder der Datenabruf 
+ endete vor Erreichen dieses Eintrags). Zeit wurde analog zu Tag 1 (10:00 E
+ T) uebernommen.\nErklaerung: Zweiter Tag der halbjaehrlichen Kongressanhoe
+ rung (typischerweise vor dem anderen Kongressausschuss als an Tag 1). Glei
+ che Marktlogik wie Tag 1: In Warshs aktuell hawkishem Umfeld reagieren Mae
+ rkte sensibel auf jedes Signal zu Zinsanhebungen.\nWas-waere-wenn:\n1) Haw
+ kish (erneute Betonung von Zinsanhebungsrisiken) -> NQ tendenziell runter.
+ \n2) Erwartungsgemaess/keine neuen Signale -> geringe eigenstaendige Reakt
+ ion.\n3) Versoehnlicher als Tag 1 -> NQ tendenziell rauf\, da Markt dies a
+ ls Abschwaechung der Hawkish-Rhetorik interpretiert.\nQuelle: https://www.
+ forexfactory.com/calendar?day=jul15.2026
+CATEGORIES:NQ,Wirtschaftskalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: ⚫🔴 NQ | Fed-Chair Warsh Kongressanhoerung (Tag
+  2) — 16:00 CEST
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: ⚫🔴 NQ | Fed-Chair Warsh Kongressanhoerung (Tag
+  2) — 16:00 CEST
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nq-2026-07-16-retail-sales@nq-calendar-feed
-DTSTAMP:20260710T110000Z
+DTSTAMP:20260713T132409Z
 DTSTART;TZID=America/New_York:20260716T083000
 DTEND;TZID=America/New_York:20260716T090000
-SUMMARY:🔴 NQ | Retail Sales — 14:30 CEST
-DESCRIPTION:Impact: 🔴 HOCH\nZeit: 8:30 ET / 14:30 CEST\nForecast: 0\,3% 
- | Vorwert: 0\,9%\nErklaerung: Einzelhandelsumsaetze sind das Hauptmass fue
- r den privaten US-Konsum\, der rund zwei Drittel des BIP ausmacht. Im aktu
- ellen Warsh-Regime gilt: starke Konsumdaten bestaetigen den hawkishen Kurs
-  (Wirtschaft braucht keine Zinssenkung) und belasten tendenziell den NQ\, 
- schwache Daten naehren Konjunktur- und Lockerungssorgen mit gemischter\, t
- eils unterstuetzender Wirkung.\nWas-waere-wenn:\n1) Beat (>0\,3%): Bestaet
- igt robuste Konsumnachfrage\, hawkishe Fed-Erwartungen verstaerken sich\, 
- NQ tendenziell unter Druck.\n2) In-line (=0\,3%): Reaktion moderat.\n3) Mi
- ss (<0\,3%): Konsumschwaeche naehrt Konjunktursorgen\, NQ-Reaktion gemisch
- t (Wachstumssorge vs. Lockerungshoffnung).\n🔗 Quelle: https://www.forex
- factory.com/calendar?day=jul16.2026
+SUMMARY:⚫🟡 NQ | US-Einzelhandelsumsaetze (Retail Sales) — 14:30 CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
+ L)\nZeit: 08:30 ET / 14:30 CEST\nForecast: Retail Sales m/m 0\,3% (Vorwert
+  0\,9%) | Kern-Einzelhandelsumsaetze m/m -0\,1% (Vorwert 0\,8%)\nHinweis Q
+ uellen-Check: myfxbook-Kalenderansicht endete beim Abruf bei Daten bis zum
+  15.07. (Lazy-Load/Pagination)\, der 16.07. konnte daher nicht kreuzvalidi
+ ert werden. Die ForexFactory-Einstufung (Mittel) wurde als Vermutung ueber
+ nommen.\nErklaerung: Die Einzelhandelsumsaetze zeigen die Konsumnachfrage 
+ der privaten Haushalte\, dem groessten Treiber des US-BIP. Solide/ueber Fo
+ recast liegende Konsumdaten signalisieren eine robuste Wirtschaft\, die de
+ r restriktiven Fed unter Warsh mehr Spielraum fuer eine weitere Zinsanhebu
+ ng gibt und damit den NQ tendenziell belastet\; schwache Konsumdaten naehr
+ en dagegen Sorgen um eine Abkuehlung und koennen Zinssenkungsfantasien wec
+ ken.\nWas-waere-wenn:\n1) Beat (Umsaetze ueber Forecast) -> NQ tendenziell
+  runter\, da starker Konsum die Hawkish-These stuetzt.\n2) In-line (Umsaet
+ ze ca. Forecast) -> moderate Reaktion\, Fokus richtet sich auf die zeitgle
+ ichen Jobless Claims.\n3) Miss (Umsaetze unter Forecast) -> NQ tendenziell
+  rauf\, da schwacher Konsum als Argument gegen weitere Straffung gewertet 
+ wird.\nQuelle: https://www.forexfactory.com/calendar?day=jul16.2026
+CATEGORIES:NQ,Wirtschaftskalender
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | Retail Sales in 1 Stunde
+DESCRIPTION:Erinnerung: ⚫🟡 NQ | US-Einzelhandelsumsaetze (Retail Sales
+ ) — 14:30 CEST
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | Retail Sales in 15 Minuten
+DESCRIPTION:Erinnerung: ⚫🟡 NQ | US-Einzelhandelsumsaetze (Retail Sales
+ ) — 14:30 CEST
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nq-2026-07-16-jobless-claims@nq-calendar-feed
-DTSTAMP:20260710T110000Z
+DTSTAMP:20260713T132409Z
 DTSTART;TZID=America/New_York:20260716T083000
 DTEND;TZID=America/New_York:20260716T090000
-SUMMARY:⚫🔴 NQ | Initial Jobless Claims — 14:30 CEST
-DESCRIPTION:Impact: ⚫ NICHT TAGGENAU VERIFIZIERT (Kategorie-Einstufung: 
- 🔴 HOCH)\nZeit: 8:30 ET / 14:30 CEST\nForecast: – | Vorwert: –\nHinw
- eis Quellen-Check: Zeit (Donnerstag 8:30 ET) und High-Impact sind fuer woe
- chentliche Jobless Claims durchgehend Standard (myfxbook-Kategorieseite be
- staetigt generell "Impact: High")\, die konkrete myfxbook-Datenzeile fuer 
- den 16.07. konnte wegen eines Cache-Limits der Quelle nicht abgerufen werd
- en - daher als nicht taggenau verifiziert markiert statt automatisch als b
- estaetigt einzutragen.\nErklaerung: Die woechentlichen Erstantraege auf Ar
- beitslosenhilfe gelten als zeitnahester Indikator fuer die Verfassung des 
- US-Arbeitsmarkts. Im aktuellen Warsh-Regime ist die Reaktion zweischneidig
- : schwaechere Daten (hoehere Antraege) schueren Konjunktursorgen\, naehren
-  aber auch Zinssenkungs-/Pause-Hoffnungen\; sehr starke Daten (niedrigere 
- Antraege) stuetzen die hawkishe Fed-Haltung und belasten tendenziell den N
- Q.\nWas-waere-wenn:\n1) Beat/hoeher als Forecast (schwaecherer Arbeitsmark
- t): Kurzfristig gemischt\, NQ-Reaktion oft leicht positiv sofern kein Reze
- ssionssignal.\n2) In-line: Geringe Marktreaktion.\n3) Miss/niedriger als F
- orecast (robuster Arbeitsmarkt): Stuetzt hawkishe Fed-Erwartungen\, NQ ten
- denziell unter Druck.\n🔗 Quelle: https://www.forexfactory.com/calendar?
- day=jul16.2026
+SUMMARY:⚫🔴 NQ | Erstantraege Arbeitslosenhilfe (Jobless Claims) — 14
+ :30 CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🔴 HOCH)
+ \nZeit: 08:30 ET / 14:30 CEST\nForecast: 215K (Vorwert 215K)\nHinweis Quel
+ len-Check: myfxbook-Daten fuer den 16.07. beim Abruf nicht verfuegbar (Cut
+ off der Kalenderansicht bei 15.07.). In den drei Vorwochen (25.06.\, 02.07
+ .\, 09.07.) stufte myfxbook die Erstantraege/fortlaufenden Antraege jedoch
+  durchgehend als Hoch ein\, waehrend ForexFactory hier nur Mittel zeigt - 
+ systematische Diskrepanz zwischen beiden Quellen fuer diesen Event-Typ. Vo
+ rsorglich wird daher Hoch als vermutete Einstufung angesetzt.\nErklaerung:
+  Die woechentlichen Erstantraege auf Arbeitslosenhilfe sind der zeitnahest
+ e Indikator fuer die Lage am Arbeitsmarkt. Ein robuster Arbeitsmarkt (nied
+ rige/fallende Erstantraege) unterstuetzt Warshs restriktiven Kurs\, da er 
+ keinen Handlungsdruck zur Lockerung sieht - das belastet tendenziell den N
+ Q. Steigende Erstantraege signalisieren dagegen eine Abkuehlung\, die Zins
+ senkungsfantasien naehren und den NQ stuetzen kann.\nWas-waere-wenn:\n1) B
+ eat (Antraege niedriger als Forecast\, robuster Arbeitsmarkt) -> NQ tenden
+ ziell runter\, da starker Arbeitsmarkt der Fed Rueckenwind fuer straffere 
+ Politik gibt.\n2) In-line (Antraege ca. Forecast) -> geringe eigenstaendig
+ e Reaktion\, Fokus bleibt auf Retail Sales am selben Termin.\n3) Miss (Ant
+ raege hoeher als Forecast) -> NQ tendenziell rauf\, da dies als erstes Anz
+ eichen einer Abkuehlung gegen weitere Zinsanhebungen spricht.\nQuelle: htt
+ ps://www.forexfactory.com/calendar?day=jul16.2026
+CATEGORIES:NQ,Wirtschaftskalender
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | Initial Jobless Claims in 1 Stunde
+DESCRIPTION:Erinnerung: ⚫🔴 NQ | Erstantraege Arbeitslosenhilfe (Jobles
+ s Claims) — 14:30 CEST
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | Initial Jobless Claims in 15 Minuten
+DESCRIPTION:Erinnerung: ⚫🔴 NQ | Erstantraege Arbeitslosenhilfe (Jobles
+ s Claims) — 14:30 CEST
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nq-2026-07-17-uom-sentiment@nq-calendar-feed
-DTSTAMP:20260710T110000Z
+DTSTAMP:20260713T132409Z
 DTSTART;TZID=America/New_York:20260717T100000
 DTEND;TZID=America/New_York:20260717T103000
-SUMMARY:🔴 NQ | Prelim UoM Consumer Sentiment — 16:00 CEST
-DESCRIPTION:Impact: 🔴 HOCH\nZeit: 10:00 ET / 16:00 CEST\nForecast: noch 
- nicht veroeffentlicht | Vorwert: 49\,5\nErklaerung: Der vorlaeufige Verbra
- uchervertrauensindex der University of Michigan misst die Stimmung der US-
- Konsumenten und enthaelt auch Inflationserwartungen - ein direkter Fed-Beo
- bachtungspunkt. Im aktuellen Warsh-Regime gilt: ueberraschend hohes Vertra
- uen und/oder steigende Inflationserwartungen stuetzen den hawkishen Kurs u
- nd belasten tendenziell den NQ\, ein Rueckgang naehrt Konjunktur- und Lock
- erungssorgen.\nWas-waere-wenn:\n1) Beat: Hoeheres Vertrauen/hoehere Inflat
- ionserwartungen stuetzen hawkishen Kurs\, NQ tendenziell unter Druck.\n2) 
- In-line: Reaktion moderat.\n3) Miss: Sinkendes Vertrauen naehrt Konjunktur
- sorgen\, NQ-Reaktion gemischt bis unterstuetzend.\n🔗 Quelle: https://ww
- w.forexfactory.com/calendar?day=jul17.2026
+SUMMARY:⚫🔴 NQ | Uni Michigan Verbrauchervertrauen (UoM) — 16:00 CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🔴 HOCH)
+ \nZeit: 10:00 ET / 16:00 CEST\nForecast: Sentiment-Index 51\,4 (Vorwert 48
+ \,9) | Inflationserwartungen: – (Vorwert 4\,6%)\nHinweis Quellen-Check: 
+ myfxbook-Daten fuer den 17.07. beim Abruf nicht verfuegbar (Cutoff der Kal
+ enderansicht bei 15.07.). Bei der vorherigen Veroeffentlichung (26.06.) st
+ ufte myfxbook den Michigan Consumer Sentiment Index als Hoch ein\, waehren
+ d ForexFactory hier nur Mittel zeigt. Vorsorglich wird daher Hoch als verm
+ utete Einstufung angesetzt.\nErklaerung: Der vorlaeufige Verbrauchervertra
+ uensindex der University of Michigan misst Stimmung und Inflationserwartun
+ gen der Konsumenten und gilt als frueher Stimmungsindikator. Warsh und die
+  Fed beobachten insbesondere die Inflationserwartungen genau\, da sich ver
+ ankerte hohe Erwartungen selbst verstaerken koennen. Steigendes Vertrauen 
+ bei gleichzeitig hohen Inflationserwartungen wuerde die restriktive Fed-Ha
+ ltung stuetzen (NQ-belastend)\, fallendes Vertrauen mit sinkenden Inflatio
+ nserwartungen koennte dagegen als Argument fuer eine vorsichtigere Fed gew
+ ertet werden.\nWas-waere-wenn:\n1) Beat (Sentiment ueber Forecast\, Inflat
+ ionserwartungen stabil/hoch) -> NQ tendenziell runter\, da dies Warshs Inf
+ lationssorgen bestaetigt.\n2) In-line (Sentiment ca. Forecast) -> verhalte
+ ne Reaktion zum Wochenschluss.\n3) Miss (Sentiment unter Forecast\, insbes
+ ondere fallende Inflationserwartungen) -> NQ tendenziell rauf\, da nachlas
+ sende Inflationssorgen der Konsumenten Entlastungssignale fuer die Fed lie
+ fern.\nQuelle: https://www.forexfactory.com/calendar?day=jul17.2026
+CATEGORIES:NQ,Wirtschaftskalender
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | Prelim UoM Consumer Sentiment in 1 Stunde
+DESCRIPTION:Erinnerung: ⚫🔴 NQ | Uni Michigan Verbrauchervertrauen (UoM
+ ) — 16:00 CEST
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: NQ | Prelim UoM Consumer Sentiment in 15 Minuten
+DESCRIPTION:Erinnerung: ⚫🔴 NQ | Uni Michigan Verbrauchervertrauen (UoM
+ ) — 16:00 CEST
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
