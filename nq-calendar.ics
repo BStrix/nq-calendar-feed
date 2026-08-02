@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NQ Wirtschaftskalender//nq-calendar-feed//DE
+PRODID:-//NQ Wirtschaftskalender//Automatisierter Wochenbau//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:NQ Wirtschaftskalender
@@ -24,52 +24,304 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:nq-cal-20260723-jobless-claims@nq-calendar-feed
-DTSTAMP:20260719T070836Z
-DTSTART;TZID=America/New_York:20260723T083000
-DTEND;TZID=America/New_York:20260723T090000
-SUMMARY:⚫🟡 NQ | Wöchentliche Erstanträge auf Arbeitslosenhilfe (Unem
- ployment Claims) — 14:30 Uhr CEST
-DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
- L)\nZeit: 8:30am ET / 14:30 CEST\nForecast: – (auf ForexFactory kein Kon
- sens gelistet) | Vorwert: 208K\nHinweis Quellen-Check: myfxbook-Cross-Chec
- k war für diesen Lauf nicht möglich. Der WebFetch der myfxbook-US-Kalend
- erseite lieferte eine gecachte Version mit Server-Zeitstempel 21.06.2026 (
- rund einen Monat alt) und enthielt keine Daten für die Zielwoche 20.-24.0
- 7.2026. Die Einstufung als Mittel basiert daher nur auf der üblichen Klas
- sifizierung dieses Event-Typs\, nicht auf einem Zwei-Quellen-Abgleich.\nEr
- klärung: Die wöchentlichen Erstanträge auf Arbeitslosenhilfe (Initial J
- obless Claims) messen\, wie viele Menschen in den USA erstmals Arbeitslose
- nunterstützung beantragt haben. Steigende Antragszahlen deuten auf einen 
- sich abschwächenden Arbeitsmarkt hin\, fallende Zahlen auf einen robusten
-  Arbeitsmarkt. Fed-Chair Kevin Warsh fährt seit seiner ersten FOMC-Sitzun
- g im Juni 2026 einen restriktiven\, hawkishen Kurs und bezeichnete die Inf
- lation Anfang Juli beim ECB Forum in Sintra weiterhin als 'zu hoch'\; neun
-  von neun FOMC-Mitgliedern signalisierten zuletzt eine mögliche weitere Z
- insanhebung bis Jahresende. Diese Woche (20.-24.07.) liegt zudem in der Fe
- d-Blackout-Periode vor der nächsten FOMC-Sitzung am 28.-29.07.2026\, wesh
- alb keine Fed-Redner-Termine anstehen. In diesem Umfeld gilt tendenziell '
- gute Nachrichten = schlechte Nachrichten': überraschend robuste Arbeitsma
- rktdaten nähren die Sorge vor weiteren Zinsanhebungen und belasten tenden
- ziell den NQ\, während schwache Daten Hoffnung auf ein Ende des Straffung
- szyklus schüren und den NQ eher stützen.\nWas-wäre-wenn:\n1) Beat (deut
- lich weniger Anträge als 208K) -> NQ tendenziell runter: robuster Arbeits
- markt stützt Warshs restriktiven Kurs\, Markt preist höhere Wahrscheinli
- chkeit einer weiteren Zinsanhebung ein.\n2) In-line (rund 208K) -> Erwartu
- ngsgemäße\, eher verhaltene Reaktion\, da keine neue Information für de
- n Fed-Kurs.\n3) Miss (deutlich mehr Anträge als 208K) -> NQ tendenziell r
- auf: schwächerer Arbeitsmarkt nährt Hoffnung auf ein Ende der Zinsstraff
- ung.\nQuelle: https://www.forexfactory.com/calendar?day=jul23.2026
+UID:nq-cal-20260803-ism-mfg@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260803T100000
+DTEND;TZID=America/New_York:20260803T103000
+SUMMARY:🔴 NQ | ISM Manufacturing PMI — 16:00 Uhr CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 10:00 ET / 16:00 CEST\nForecast: 54.0 
+ | Vorwert: 53.3\nErklaerung: Der ISM Manufacturing PMI misst die Aktivitae
+ t im verarbeitenden Gewerbe der USA (Werte ueber 50 = Expansion\, unter 50
+  = Kontraktion). Im aktuellen restriktiven Fed-Kurs unter Chair Kevin Wars
+ h (Leitzins unveraendert bei 3\,75%\, Dot Plot tendiert eher zu weiteren A
+ nhebungen als zu Senkungen) gilt: ein ueberraschend starker Wert naehrt di
+ e Sorge vor anhaltendem Preisdruck und weiteren Zinsschritten nach oben ("
+ good news = bad news")\, was den NQ tendenziell belastet. Ein schwacher We
+ rt schuert Hoffnung auf eine Pause oder Lockerung und wirkt fuer den NQ te
+ ndenziell unterstuetzend.\nWas-waere-wenn:\n1) Beat (ueber 54.0) -> NQ ten
+ denziell runter\, da Konjunkturstaerke die Falken im FOMC bestaerkt und Zi
+ nssenkungsfantasien daempft.\n2) In-line (um 54.0) -> Reaktion moderat\, M
+ arkt bleibt in aktueller Range\, Fokus wandert zur Preiskomponente (ISM Ma
+ nufacturing Prices).\n3) Miss (unter 54.0) -> NQ tendenziell rauf\, da sch
+ waechere Industriedaten Spielraum fuer eine vorsichtigere Fed signalisiere
+ n.\nQuelle: https://www.forexfactory.com/calendar?day=aug3.2026
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: ⚫🟡 NQ | Wöchentliche Erstanträge auf Arbeits
- losenhilfe (Unemployment Claims) — 14:30 Uhr CEST
+DESCRIPTION:Erinnerung
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Erinnerung: ⚫🟡 NQ | Wöchentliche Erstanträge auf Arbeits
- losenhilfe (Unemployment Claims) — 14:30 Uhr CEST
+DESCRIPTION:Erinnerung
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-cal-20260805-ism-svc@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260805T100000
+DTEND;TZID=America/New_York:20260805T103000
+SUMMARY:🔴 NQ | ISM Services PMI — 16:00 Uhr CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 10:00 ET / 16:00 CEST\nForecast: 54.5 
+ | Vorwert: 54.0\nErklaerung: Der ISM Services PMI misst die Aktivitaet im 
+ Dienstleistungssektor\, dem groessten Teil der US-Wirtschaft (ueber 50 = E
+ xpansion). Unter der restriktiven Fed-Linie von Chair Kevin Warsh (Leitzin
+ s 3\,75%\, Dot Plot mit Tendenz zu weiteren Anhebungen statt Senkungen) wi
+ rd ein starker Wert als hawkisches Signal gelesen: robuste Dienstleistungs
+ nachfrage naehrt Inflationssorgen\, was zusaetzliche Zinsschritte wahrsche
+ inlicher macht und den NQ tendenziell belastet ("good news = bad news"). E
+ in schwacher Wert signalisiert nachlassenden Preisdruck und staerkt Hoffnu
+ ngen auf eine mildere Fed\, was den NQ tendenziell stuetzt.\nWas-waere-wen
+ n:\n1) Beat (ueber 54.5) -> NQ tendenziell runter\, da starke Dienstleistu
+ ngsdaten die restriktive Fed-Haltung bestaerken.\n2) In-line (um 54.5) -> 
+ Reaktion moderat\, keine neuen Impulse fuer die Zinserwartungen.\n3) Miss 
+ (unter 54.5) -> NQ tendenziell rauf\, da Abkuehlung im Servicesektor Spiel
+ raum fuer eine vorsichtigere Fed andeutet.\nQuelle: https://www.forexfacto
+ ry.com/calendar?day=aug5.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-cal-20260805-cook-speech@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260805T160500
+DTEND;TZID=America/New_York:20260805T170500
+SUMMARY:🟡 NQ | FOMC Member Cook Speaks — 22:05 Uhr CEST
+DESCRIPTION:Impact: 🟡 MITTEL\nZeit: 16:05 ET / 22:05 CEST\nForecast: –
+  | Vorwert: –\nErklaerung: Reden von FOMC-Mitgliedern (hier: Gouverneuri
+ n Lisa Cook) liefern Hinweise auf die kuenftige Zinspolitik. Da der Fed-Ku
+ rs unter Chair Warsh aktuell restriktiv/hawkish ausgerichtet ist (Leitzins
+  3\,75%\, Dot Plot mit Tendenz zu weiteren Anhebungen statt Senkungen)\, w
+ ird jede Aussage auf Signale fuer zusaetzliche Straffung oder ein moeglich
+ es Einlenken abgeklopft. Betont die Rede die Inflationsgefahr staerker als
+  erwartet (hawkish)\, wirkt das fuer den NQ belastend\; deutet sie Zurueck
+ haltung oder Datenabhaengigkeit an (dovish)\, kann das den NQ stuetzen.\nW
+ as-waere-wenn:\n1) Hawkischer als erwartet (betont Inflationsrisiken/weite
+ re Straffung) -> NQ tendenziell runter.\n2) In-line/neutral (bestaetigt ak
+ tuellen Kurs ohne neue Akzente) -> Reaktion moderat\, Fokus bleibt auf nae
+ chsten Datenpunkten.\n3) Dovischer als erwartet (oeffnet Tuer fuer Pause/L
+ ockerung) -> NQ tendenziell rauf.\nQuelle: https://www.forexfactory.com/ca
+ lendar?day=aug5.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-cal-20260806-claims@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260806T083000
+DTEND;TZID=America/New_York:20260806T090000
+SUMMARY:⚫🟡 NQ | Unemployment Claims (Weekly Jobless Claims) — 14:30 
+ Uhr CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
+ L)\nZeit: 8:30 ET / 14:30 CEST\nForecast: 205K | Vorwert: 197K\nHinweis Qu
+ ellen-Check: ForexFactory listet "Unemployment Claims" (Forecast 205K\, Vo
+ rwert 197K) fuer Do 06.08. um 8:30 ET. Myfxbook zeigt zur selben Zeit (12:
+ 30 GMT = 8:30 ET) eine Zeile "Jobless Claims 4-week Average"\, Impact Hoch
+ \, Vorwert 202\,75K\, Konsens 198K — das ist ein anderer Teilindikator (
+ gleitender 4-Wochen-Schnitt statt des woechentlichen Erstantrags)\, die We
+ rte stimmen daher nicht direkt ueberein. Die eigentliche woechentliche Ers
+ tantragszahl war im abgerufenen myfxbook-Ausschnitt nicht auffindbar (Date
+ i endete kurz danach). Impact daher als vermutete uebliche Einstufung mark
+ iert.\nErklaerung: Die woechentlichen Erstantraege auf Arbeitslosenhilfe g
+ elten als zeitnaher Fruehindikator fuer den US-Arbeitsmarkt. Im aktuellen 
+ restriktiven Fed-Regime unter Warsh gilt: ein niedriger/besser als erwarte
+ ter Wert (weniger neue Arbeitslose) signalisiert einen robusten Arbeitsmar
+ kt\, was der Fed mehr Spielraum fuer weitere Straffung gibt und den NQ ten
+ denziell belastet. Ein hoher/schlechter Wert deutet auf eine Abkuehlung hi
+ n und naehrt Hoffnung auf eine mildere Fed\, was den NQ tendenziell stuetz
+ t.\nWas-waere-wenn:\n1) Beat (weniger Erstantraege als Forecast) -> NQ ten
+ denziell runter\, robuster Arbeitsmarkt staerkt restriktiven Fed-Kurs.\n2)
+  In-line (nahe 205K) -> Reaktion moderat\, kein neuer Impuls fuer Zinserwa
+ rtungen.\n3) Miss (mehr Erstantraege als Forecast) -> NQ tendenziell rauf\
+ , Anzeichen einer Arbeitsmarktabkuehlung naehren Lockerungshoffnung.\nQuel
+ le: https://www.forexfactory.com/calendar?day=aug6.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-cal-20260806-musalem-speech@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260806T173000
+DTEND;TZID=America/New_York:20260806T183000
+SUMMARY:⚫🟡 NQ | FOMC Member Musalem Speaks — 23:30 Uhr CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
+ L)\nZeit: 17:30 ET / 23:30 CEST\nForecast: – | Vorwert: –\nHinweis Que
+ llen-Check: Dieser Termin ist nur auf ForexFactory gelistet. Der myfxbook-
+ Datensatz fuer diese Woche endete bereits am Do 06.08. um 12:30 GMT (vor d
+ iesem Termin um 21:30 GMT)\, ein Abgleich von Zeit und Impact war daher ni
+ cht moeglich.\nErklaerung: Reden regulaerer FOMC-Mitglieder (hier: St.-Lou
+ is-Fed-Praesident Alberto Musalem) werden auf Hinweise zur kuenftigen Geld
+ politik abgeklopft. Im restriktiven Fed-Regime unter Chair Warsh (Leitzins
+  3\,75%\, Dot Plot mit Tendenz zu weiteren Anhebungen) wirkt eine hawkisch
+ e Wortwahl belastend fuer den NQ\, eine dovische Tonalitaet stuetzend.\nWa
+ s-waere-wenn:\n1) Hawkischer als erwartet -> NQ tendenziell runter.\n2) In
+ -line/neutral -> Reaktion moderat.\n3) Dovischer als erwartet -> NQ tenden
+ ziell rauf.\nQuelle: https://www.forexfactory.com/calendar?day=aug6.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-cal-20260807-nfp@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260807T083000
+DTEND;TZID=America/New_York:20260807T090000
+SUMMARY:⚫🔴 NQ | Non-Farm Employment Change (NFP) — 14:30 Uhr CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🔴 HOCH)
+ \nZeit: 8:30 ET / 14:30 CEST\nForecast: 88K | Vorwert: 57K\nHinweis Quelle
+ n-Check: Der myfxbook-Datensatz fuer diese Woche deckte nur bis Do 06.08. 
+ ab\; Fr 07.08. (NFP-Tag) fehlte komplett im abgerufenen Ausschnitt\, ein C
+ ross-Check war daher nicht moeglich. Uebliche Einstufung fuer den Non-Farm
+ -Employment-Change-Hauptwert: Hoch.\nErklaerung: Der Non-Farm-Payrolls-Ber
+ icht misst die monatliche Veraenderung der Beschaeftigung ausserhalb der L
+ andwirtschaft und gilt als einer der wichtigsten US-Konjunkturdaten. Im re
+ striktiven Fed-Umfeld unter Warsh (Leitzins 3\,75%\, Dot Plot tendiert zu 
+ weiteren Anhebungen) gilt: ein starker Beschaeftigungsaufbau signalisiert 
+ einen robusten Arbeitsmarkt und staerkt die Falken im FOMC\, was tendenzie
+ ll restriktivere Politik und damit einen belasteten NQ bedeutet ("good new
+ s = bad news"). Ein schwacher Wert naehrt Hoffnung auf eine mildere Fed un
+ d wirkt fuer den NQ tendenziell stuetzend.\nWas-waere-wenn:\n1) Beat (deut
+ lich ueber 88K) -> NQ tendenziell runter\, starker Arbeitsmarkt bestaerkt 
+ restriktiven Fed-Kurs.\n2) In-line (nahe 88K) -> Reaktion moderat\, Fokus 
+ wandert zu Unemployment Rate und Average Hourly Earnings im selben Bericht
+ .\n3) Miss (deutlich unter 88K) -> NQ tendenziell rauf\, schwacher Arbeits
+ markt naehrt Zinssenkungsfantasien.\nQuelle: https://www.forexfactory.com/
+ calendar?day=aug7.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-cal-20260807-unemp-rate@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260807T083000
+DTEND;TZID=America/New_York:20260807T090000
+SUMMARY:⚫🟡 NQ | Unemployment Rate — 14:30 Uhr CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
+ L)\nZeit: 8:30 ET / 14:30 CEST\nForecast: 4.2% | Vorwert: 4.2%\nHinweis Qu
+ ellen-Check: Wird zeitgleich mit dem NFP-Bericht veroeffentlicht. Der myfx
+ book-Datensatz fuer diese Woche deckte Fr 07.08. nicht ab\, ein Cross-Chec
+ k war daher nicht moeglich. Uebliche Einstufung: Mittel.\nErklaerung: Die 
+ Arbeitslosenquote misst den Anteil der Erwerbspersonen ohne Beschaeftigung
+ . Im restriktiven Fed-Umfeld unter Warsh gilt: ein Rueckgang der Quote sig
+ nalisiert einen angespannten Arbeitsmarkt\, was Inflationsdruck ueber Loeh
+ ne naehren kann und die Fed in ihrem restriktiven Kurs bestaerkt (NQ tende
+ nziell belastet). Ein Anstieg der Quote deutet auf Abkuehlung hin und stae
+ rkt Hoffnung auf eine mildere Fed (NQ tendenziell gestuetzt).\nWas-waere-w
+ enn:\n1) Beat (Quote niedriger als 4.2%) -> NQ tendenziell runter\, angesp
+ annter Arbeitsmarkt bestaerkt restriktiven Kurs.\n2) In-line (4.2%) -> Rea
+ ktion moderat.\n3) Miss (Quote hoeher als 4.2%) -> NQ tendenziell rauf\, A
+ bkuehlungssignal naehrt Lockerungshoffnung.\nQuelle: https://www.forexfact
+ ory.com/calendar?day=aug7.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-cal-20260807-earnings@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260807T083000
+DTEND;TZID=America/New_York:20260807T090000
+SUMMARY:⚫🟡 NQ | Average Hourly Earnings m/m — 14:30 Uhr CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
+ L)\nZeit: 8:30 ET / 14:30 CEST\nForecast: 0.3% | Vorwert: 0.3%\nHinweis Qu
+ ellen-Check: Wird zeitgleich mit dem NFP-Bericht veroeffentlicht. Der myfx
+ book-Datensatz fuer diese Woche deckte Fr 07.08. nicht ab\, ein Cross-Chec
+ k war daher nicht moeglich. Uebliche Einstufung: Mittel.\nErklaerung: Die 
+ durchschnittlichen Stundenloehne (m/m) gelten als wichtiger Indikator fuer
+  Lohn- und damit Inflationsdruck. Im restriktiven Fed-Umfeld unter Warsh g
+ ilt: ein staerkeres Lohnwachstum als erwartet schuert Sorgen vor einer Loh
+ n-Preis-Spirale und bestaerkt die Falken im FOMC (NQ tendenziell belastet)
+ . Ein schwaecheres Lohnwachstum entlastet die Inflationssorgen und kann Ho
+ ffnung auf eine mildere Fed naehren (NQ tendenziell gestuetzt).\nWas-waere
+ -wenn:\n1) Beat (ueber 0.3%) -> NQ tendenziell runter\, staerkeres Lohnwac
+ hstum naehrt Inflationssorgen.\n2) In-line (0.3%) -> Reaktion moderat.\n3)
+  Miss (unter 0.3%) -> NQ tendenziell rauf\, schwaecheres Lohnwachstum entl
+ astet Inflationssorgen.\nQuelle: https://www.forexfactory.com/calendar?day
+ =aug7.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-cal-20260807-barkin-speech@nq-calendar-feed
+DTSTAMP:20260802T154758Z
+DTSTART;TZID=America/New_York:20260807T100000
+DTEND;TZID=America/New_York:20260807T110000
+SUMMARY:⚫🟡 NQ | FOMC Member Barkin Speaks — 16:00 Uhr CEST
+DESCRIPTION:Impact: ⚫ NICHT VERIFIZIERT (vermutete Einstufung: 🟡 MITTE
+ L)\nZeit: 10:00 ET / 16:00 CEST\nForecast: – | Vorwert: –\nHinweis Que
+ llen-Check: Dieser Termin ist nur auf ForexFactory gelistet. Der myfxbook-
+ Datensatz fuer diese Woche deckte Fr 07.08. nicht ab\, ein Abgleich von Ze
+ it und Impact war daher nicht moeglich.\nErklaerung: Reden regulaerer FOMC
+ -Mitglieder (hier: Richmond-Fed-Praesident Thomas Barkin) werden auf Hinwe
+ ise zur kuenftigen Geldpolitik abgeklopft\, besonders am Tag des NFP-Beric
+ hts. Im restriktiven Fed-Regime unter Chair Warsh wirkt eine hawkische Ein
+ ordnung der Jobdaten belastend fuer den NQ\, eine dovische Tonalitaet stue
+ tzend.\nWas-waere-wenn:\n1) Hawkischer als erwartet (interpretiert Jobdate
+ n als Grund fuer weitere Straffung) -> NQ tendenziell runter.\n2) In-line/
+ neutral -> Reaktion moderat.\n3) Dovischer als erwartet -> NQ tendenziell 
+ rauf.\nQuelle: https://www.forexfactory.com/calendar?day=aug7.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
