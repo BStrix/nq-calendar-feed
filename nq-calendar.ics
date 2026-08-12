@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//NQ Wirtschaftskalender//nq-calendar-feed//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:NQ Wirtschaftskalender KW34 2026
+X-WR-CALNAME:NQ Wirtschaftskalender (laufende + kommende Woche)
 X-WR-TIMEZONE:America/New_York
 BEGIN:VTIMEZONE
 TZID:America/New_York
@@ -23,8 +23,226 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:nq-cpi-20260812@nq-calendar-feed
+DTSTAMP:20260812T084805Z
+DTSTART;TZID=America/New_York:20260812T083000
+DTEND;TZID=America/New_York:20260812T084500
+SUMMARY:🔴 NQ | US-Verbraucherpreise CPI (Juli) — 14:30 Uhr CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 08:30 ET / 14:30 CEST\nForecast: CPI y
+ /y 3\,4% (Vorwert 3\,5%) | CPI m/m 0\,1% (Vorwert -0\,4%) | Kern-CPI y/y 2
+ \,5% (Vorwert 2\,6%) | Kern-CPI m/m 0\,2% (Vorwert 0%)\nErklaerung: Der Ve
+ rbraucherpreisindex (CPI) misst die Preisentwicklung fuer Konsumgueter und
+  ist der zentrale Inflationsindikator\, an dem sich Fed-Chair Kevin Warsh 
+ orientiert. Warsh faehrt aktuell einen restriktiven Kurs. Ein Anstieg uebe
+ r Forecast waere hawkish und wuerde Risikoassets wie den Nasdaq belasten (
+ good news = bad news). Ein Rueckgang unter Forecast koennte Pause-Hoffnung
+ en naehren. Zusaetzlicher Belastungsfaktor: die Oelpreise sind im Juli um 
+ rund 20% gestiegen\, was die Headline-Inflation anheizen koennte.\nWas-wae
+ re-wenn:\n1) Beat (CPI y/y deutlich ueber 3\,4%) -> NQ tendenziell runter\
+ , da hoehere Inflation den restriktiven Fed-Kurs bestaetigt.\n2) In-line (
+ nahe 3\,4%) -> moderate Reaktion.\n3) Miss (CPI y/y deutlich unter 3\,4%) 
+ -> NQ tendenziell rauf\, da nachlassender Preisdruck Spielraum fuer eine Z
+ inspause signalisiert.\nQuelle: https://www.forexfactory.com/calendar?day=
+ aug12.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | US-Verbraucherpreise CPI (Juli) — 14:30
+  Uhr CEST
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | US-Verbraucherpreise CPI (Juli) — 14:30
+  Uhr CEST
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-fed-hammack-20260813@nq-calendar-feed
+DTSTAMP:20260812T084805Z
+DTSTART;TZID=America/New_York:20260813T081500
+DTEND;TZID=America/New_York:20260813T083000
+SUMMARY:🟡 NQ | Fed-Rede Hammack (FOMC-Mitglied) — 14:15 Uhr CEST
+DESCRIPTION:Impact: 🟡 MITTEL\nZeit: 08:15 ET / 14:15 CEST\nForecast: –
+  | Vorwert: –\nErklaerung: Cleveland-Fed-Praesidentin Beth Hammack ist F
+ OMC-Mitglied. Ihre Aeusserungen geben Hinweise auf die interne Stimmung im
+  Committee zum restriktiven Kurs unter Kevin Warsh. Da am selben Morgen di
+ e CPI-Zahl veroeffentlicht wird\, ist ihre Reaktion darauf besonders markt
+ relevant.\nWas-waere-wenn:\n1) Hawkishere Toene -> NQ tendenziell runter.\
+ n2) Neutral/erwartungsgemaess -> geringe Reaktion.\n3) Dovishere Toene -> 
+ NQ tendenziell rauf.\nQuelle: https://www.forexfactory.com/calendar?day=au
+ g13.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🟡 NQ | Fed-Rede Hammack (FOMC-Mitglied) — 14:1
+ 5 Uhr CEST
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🟡 NQ | Fed-Rede Hammack (FOMC-Mitglied) — 14:1
+ 5 Uhr CEST
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-ppi-20260813@nq-calendar-feed
+DTSTAMP:20260812T084805Z
+DTSTART;TZID=America/New_York:20260813T083000
+DTEND;TZID=America/New_York:20260813T084500
+SUMMARY:🔴 NQ | US-Erzeugerpreise PPI (Juli) — 14:30 Uhr CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 08:30 ET / 14:30 CEST\nForecast: PPI m
+ /m 0\,2% (Vorwert -0\,3%) | Kern-PPI m/m 0\,3% (Vorwert 0\,2%)\nErklaerung
+ : Der Erzeugerpreisindex (PPI) misst die Preisentwicklung auf Herstellereb
+ ene und gilt als Fruehindikator fuer die Verbraucherpreisinflation. Im res
+ triktiven Fed-Kurs unter Kevin Warsh wuerde ein Anstieg ueber Forecast zus
+ aetzlichen Inflationsdruck signalisieren (hawkish). Ein Rueckgang wuerde n
+ achlassenden Kostendruck andeuten und Lockerungshoffnungen staerken.\nWas-
+ waere-wenn:\n1) Beat (deutlich ueber 0\,2%) -> NQ tendenziell runter\, da 
+ zusaetzlicher Inflationsdruck den restriktiven Kurs untermauert.\n2) In-li
+ ne -> geringe Reaktion.\n3) Miss (deutlich unter 0\,2%\, z.B. negativ) -> 
+ NQ tendenziell rauf\, da nachlassender Kostendruck Pause-Hoffnungen naehrt
+ .\nQuelle: https://www.forexfactory.com/calendar?day=aug13.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | US-Erzeugerpreise PPI (Juli) — 14:30 Uh
+ r CEST
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | US-Erzeugerpreise PPI (Juli) — 14:30 Uh
+ r CEST
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-jobless-claims-20260813@nq-calendar-feed
+DTSTAMP:20260812T084805Z
+DTSTART;TZID=America/New_York:20260813T083000
+DTEND;TZID=America/New_York:20260813T084500
+SUMMARY:🔴 NQ | Erstantraege auf Arbeitslosenhilfe (Initial Jobless Claim
+ s) — 14:30 Uhr CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 08:30 ET / 14:30 CEST\nForecast: Initi
+ al Claims 201K (Vorwert 199K) | Continuing Claims 1.800K (Vorwert 1.801K) 
+ | 4-Wochen-Schnitt 197K (Vorwert 198\,75K)\nErklaerung: Die woechentlichen
+  Erstantraege (inkl. Continuing Claims und 4-Wochen-Durchschnitt) sind ein
+  fruehes\, hochfrequentes Signal fuer die Verfassung des Arbeitsmarkts. Im
+  restriktiven Fed-Kurs unter Kevin Warsh achten Marktteilnehmer genau dara
+ uf\, ob sich der Arbeitsmarkt abkuehlt. Ein Anstieg koennte Lockerungshoff
+ nungen naehren\, niedrige Werte signalisieren Robustheit und geben der Fed
+  Spielraum fuer weitere Straffung.\nWas-waere-wenn:\n1) Beat (deutlich meh
+ r als Forecast) -> NQ tendenziell rauf\, da schwaecherer Arbeitsmarkt Paus
+ e-Hoffnungen naehrt.\n2) In-line -> geringe Reaktion.\n3) Miss (deutlich w
+ eniger als Forecast) -> NQ tendenziell runter\, da robuster Arbeitsmarkt R
+ aum fuer weitere Hikes laesst.\nQuelle: https://www.forexfactory.com/calen
+ dar?day=aug13.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | Erstantraege auf Arbeitslosenhilfe (Initi
+ al Jobless Claims) — 14:30 Uhr CEST
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | Erstantraege auf Arbeitslosenhilfe (Initi
+ al Jobless Claims) — 14:30 Uhr CEST
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-fed-barkin-20260813@nq-calendar-feed
+DTSTAMP:20260812T084805Z
+DTSTART;TZID=America/New_York:20260813T084000
+DTEND;TZID=America/New_York:20260813T085500
+SUMMARY:🟡 NQ | Fed-Rede Barkin (FOMC-Mitglied) — 14:40 Uhr CEST
+DESCRIPTION:Impact: 🟡 MITTEL\nZeit: 08:40 ET / 14:40 CEST\nForecast: –
+  | Vorwert: –\nErklaerung: Richmond-Fed-Praesident Thomas Barkin ist FOM
+ C-Mitglied. Seine Aussagen kurz nach PPI und Jobless Claims koennen die Ma
+ rktreaktion auf die zuvor veroeffentlichten Daten verstaerken oder relativ
+ ieren\, besonders im Hinblick auf den restriktiven Kurs unter Kevin Warsh.
+ \nWas-waere-wenn:\n1) Hawkishere Toene -> NQ tendenziell runter.\n2) Neutr
+ al/erwartungsgemaess -> geringe Reaktion.\n3) Dovishere Toene -> NQ tenden
+ ziell rauf.\nQuelle: https://www.forexfactory.com/calendar?day=aug13.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🟡 NQ | Fed-Rede Barkin (FOMC-Mitglied) — 14:40
+  Uhr CEST
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🟡 NQ | Fed-Rede Barkin (FOMC-Mitglied) — 14:40
+  Uhr CEST
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-retail-sales-20260814@nq-calendar-feed
+DTSTAMP:20260812T084805Z
+DTSTART;TZID=America/New_York:20260814T083000
+DTEND;TZID=America/New_York:20260814T084500
+SUMMARY:🔴 NQ | US-Einzelhandelsumsaetze (Juli) — 14:30 Uhr CEST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 08:30 ET / 14:30 CEST\nForecast: Retai
+ l Sales m/m 0\,2% (Vorwert 0\,2%) | Retail Sales y/y 6\,0% (Vorwert 6\,7%)
+ \nErklaerung: Die Einzelhandelsumsaetze zeigen die Konsumnachfrage der pri
+ vaten Haushalte - ein zentraler Treiber der US-Wirtschaft und des Nasdaq-l
+ astigen Konsum-/Tech-Sektors. Starke Zahlen geben der Fed unter Kevin Wars
+ h mehr Spielraum fuer weitere Zinsanhebungen (hawkish). Schwache Zahlen ko
+ ennten Pause-Hoffnungen staerken.\nWas-waere-wenn:\n1) Beat (deutlich uebe
+ r 0\,2%) -> NQ tendenziell runter\, da starker Konsum den restriktiven Fed
+ -Kurs stuetzt.\n2) In-line -> geringe Reaktion.\n3) Miss (deutlich unter 0
+ \,2% oder negativ) -> NQ tendenziell rauf\, da schwacher Konsum Lockerungs
+ hoffnungen naehrt.\nQuelle: https://www.forexfactory.com/calendar?day=aug1
+ 4.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | US-Einzelhandelsumsaetze (Juli) — 14:30
+  Uhr CEST
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | US-Einzelhandelsumsaetze (Juli) — 14:30
+  Uhr CEST
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nq-uom-sentiment-20260814@nq-calendar-feed
+DTSTAMP:20260812T084805Z
+DTSTART;TZID=America/New_York:20260814T100000
+DTEND;TZID=America/New_York:20260814T101500
+SUMMARY:🔴 NQ | UoM Verbraucherstimmung (Prelim\, August) — 16:00 Uhr C
+ EST
+DESCRIPTION:Impact: 🔴 HOCH\nZeit: 10:00 ET / 16:00 CEST\nForecast: 54\,0
+  | Vorwert: 55\,2\nErklaerung: Der University of Michigan Consumer Sentime
+ nt Index misst die Verbraucherstimmung und gilt als Fruehindikator fuer ku
+ enftiges Konsumverhalten. Ein Wert ueber Forecast stuetzt die Erwartung ro
+ buster Konsumausgaben - im restriktiven Fed-Kurs unter Kevin Warsh ein Arg
+ ument fuer weitere Zinsanhebungen (hawkish). Ein Wert unter Forecast deute
+ t auf Verunsicherung hin und kann Lockerungshoffnungen staerken.\nWas-waer
+ e-wenn:\n1) Beat (deutlich ueber 54\,0) -> NQ tendenziell runter\, da opti
+ mistischere Verbraucher den restriktiven Fed-Kurs stuetzen.\n2) In-line ->
+  geringe Reaktion.\n3) Miss (deutlich unter 54\,0) -> NQ tendenziell rauf\
+ , da schwaechere Stimmung Lockerungshoffnungen naehrt.\nQuelle: https://ww
+ w.forexfactory.com/calendar?day=aug14.2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | UoM Verbraucherstimmung (Prelim\, August)
+  — 16:00 Uhr CEST
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: 🔴 NQ | UoM Verbraucherstimmung (Prelim\, August)
+  — 16:00 Uhr CEST
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:nq-fomc-minutes-20260819@nq-calendar-feed
-DTSTAMP:20260811T090841Z
+DTSTAMP:20260812T084805Z
 DTSTART;TZID=America/New_York:20260819T140000
 DTEND;TZID=America/New_York:20260819T143000
 SUMMARY:🔴 NQ | FOMC Sitzungsprotokoll (FOMC Minutes) — 20:00 Uhr CEST
@@ -35,20 +253,14 @@ DESCRIPTION:Impact: 🔴 HOCH\nZeit: 14:00 ET / 20:00 CEST\nForecast: – |
  nen restriktiven Kurs: bei seiner ersten Sitzung als Chair projizierten 9 
  von 18 Committee-Mitgliedern eine Zinsanhebung fuer 2026\, die Inflation l
  iegt bei rund 4\,2% YoY ueber dem 2%-Ziel. Faellt das Protokoll hawkisher 
- aus als erwartet (mehr Mitglieder fuer Zinsanhebungen\, staerkere Betonung
-  der Inflationsbekaempfung)\, wertet das den Zinsausblick auf: "good news 
- = bad news" fuer Aktien\, da hoehere Realzinsen Risikoassets wie den Nasda
- q belasten. Faellt der Ton moderater/dovisher aus als der zuletzt kommuniz
- ierte harte Kurs\, kann das als Lockerungssignal interpretiert werden und 
- Tech-/Wachstumswerte stuetzen.\nWas-waere-wenn:\n1) Hawkisher als erwartet
-  (mehr Fokus auf weitere Zinsanhebungen) -> NQ tendenziell runter\, da hoe
- here Zinserwartungen Bewertungen von Wachstumsaktien belasten.\n2) Im Rahm
- en der Erwartungen (bestaetigt aktuellen restriktiven Kurs ohne neue Signa
- le) -> moderate\, kurze Reaktion\, Markt hat vieles bereits eingepreist.\n
- 3) Dovisher als erwartet (Hinweise auf Pause oder staerkere Datenabhaengig
- keit statt fester Hikes) -> NQ tendenziell rauf\, da Markt auf nachlassend
- en Zinsdruck hofft.\nQuelle: https://www.forexfactory.com/calendar?day=aug
- 19.2026
+ aus als erwartet\, wertet das den Zinsausblick auf: good news = bad news f
+ uer Aktien\, da hoehere Realzinsen Risikoassets wie den Nasdaq belasten. F
+ aellt der Ton moderater/dovisher aus\, kann das Tech-/Wachstumswerte stuet
+ zen.\nWas-waere-wenn:\n1) Hawkisher als erwartet -> NQ tendenziell runter\
+ , da hoehere Zinserwartungen Bewertungen von Wachstumsaktien belasten.\n2)
+  Im Rahmen der Erwartungen -> moderate\, kurze Reaktion.\n3) Dovisher als 
+ erwartet -> NQ tendenziell rauf\, da Markt auf nachlassenden Zinsdruck hof
+ ft.\nQuelle: https://www.forexfactory.com/calendar?day=aug19.2026
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Erinnerung: 🔴 NQ | FOMC Sitzungsprotokoll (FOMC Minutes) —
@@ -64,32 +276,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nq-jobless-claims-20260820@nq-calendar-feed
-DTSTAMP:20260811T090841Z
+DTSTAMP:20260812T084805Z
 DTSTART;TZID=America/New_York:20260820T083000
 DTEND;TZID=America/New_York:20260820T084500
 SUMMARY:🔴 NQ | Erstantraege auf Arbeitslosenhilfe (Initial Jobless Claim
  s) — 14:30 Uhr CEST
 DESCRIPTION:Impact: 🔴 HOCH\nZeit: 08:30 ET / 14:30 CEST\nForecast: 201K 
- | Vorwert: – (laut myfxbook zum Abrufzeitpunkt noch nicht hinterlegt)\nE
- rklaerung: Die woechentlichen Erstantraege auf Arbeitslosenhilfe (Initial 
- Jobless Claims\, inkl. zeitgleicher Veroeffentlichung von Continuing Claim
- s und 4-Wochen-Durchschnitt) zeigen\, wie viele Menschen erstmals Arbeitsl
- osenunterstuetzung beantragt haben - ein fruehes\, hochfrequentes Signal f
- uer die Verfassung des Arbeitsmarkts. Im aktuellen restriktiven Fed-Kurs u
- nter Kevin Warsh (Inflation rund 4\,2% YoY\, Dot Plot mit Tendenz zu weite
- ren Zinsanhebungen) achten Marktteilnehmer genau darauf\, ob sich der Arbe
- itsmarkt abkuehlt. Ein deutlicher Anstieg der Erstantraege waere ein Zeich
- en fuer eine Abkuehlung\, koennte aber Lockerungshoffnungen naehren ("bad 
- news = good news" fuer Aktien). Niedrige/weiter sinkende Erstantraege sign
- alisieren einen robusten Arbeitsmarkt\, der der Fed mehr Spielraum fuer we
- itere Straffung gibt (hawkish) und Risikoassets belasten kann.\nWas-waere-
- wenn:\n1) Beat (deutlich mehr Erstantraege als Forecast\, z.B. ueber 210K)
-  -> NQ tendenziell rauf\, da ein schwaecherer Arbeitsmarkt Zinssenkungs-/P
- ause-Hoffnungen naehrt.\n2) In-line (nahe 201K) -> geringe Reaktion\, Foku
- s verschiebt sich auf naechste Datenpunkte.\n3) Miss (deutlich weniger Ers
- tantraege als Forecast\, z.B. unter 190K) -> NQ tendenziell runter\, da ei
- n robuster Arbeitsmarkt der Fed Raum fuer weitere Zinsanhebungen laesst.\n
- Quelle: https://www.forexfactory.com/calendar?day=aug20.2026
+ | Vorwert: –\nErklaerung: Die woechentlichen Erstantraege auf Arbeitslos
+ enhilfe zeigen\, wie viele Menschen erstmals Arbeitslosenunterstuetzung be
+ antragt haben - ein fruehes Signal fuer die Verfassung des Arbeitsmarkts. 
+ Im restriktiven Fed-Kurs unter Kevin Warsh achten Marktteilnehmer genau da
+ rauf\, ob sich der Arbeitsmarkt abkuehlt. Ein Anstieg koennte Lockerungsho
+ ffnungen naehren\, niedrige Erstantraege signalisieren Robustheit und gebe
+ n der Fed Spielraum fuer weitere Straffung.\nWas-waere-wenn:\n1) Beat (deu
+ tlich mehr als Forecast) -> NQ tendenziell rauf\, da schwaecherer Arbeitsm
+ arkt Pause-Hoffnungen naehrt.\n2) In-line -> geringe Reaktion.\n3) Miss (d
+ eutlich weniger als Forecast) -> NQ tendenziell runter\, da robuster Arbei
+ tsmarkt Raum fuer weitere Hikes laesst.\nQuelle: https://www.forexfactory.
+ com/calendar?day=aug20.2026
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Erinnerung: 🔴 NQ | Erstantraege auf Arbeitslosenhilfe (Initi
